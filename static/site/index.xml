@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sites on Scan2IP - Service</title>
+    <link>/site/</link>
+    <description>Recent content in Sites on Scan2IP - Service</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Oct 2017 14:48:31 +0200</lastBuildDate>
+    
+	<atom:link href="/site/index.xml" rel="self" type="application/rss+xml" />
+
+
+    <item>
+      <title>Current system status</title>
+      <link>/site/status/</link>
+      <pubDate>Thu, 12 Oct 2017 14:47:18 +0200</pubDate>
+      
+      <guid>/site/status/</guid>
+      <description> Last scan: Next scan:  </description>
+    </item>
+    
+    <item>
+      <title>Jobs</title>
+      <link>/site/jobs/</link>
+      <pubDate>Thu, 12 Oct 2017 14:48:22 +0200</pubDate>
+      
+      <guid>/site/jobs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>/site/database/</link>
+      <pubDate>Thu, 12 Oct 2017 14:48:22 +0200</pubDate>
+      
+      <guid>/site/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Log files available</title>
+      <link>/site/logfiles/</link>
+      <pubDate>Thu, 12 Oct 2017 14:48:11 +0200</pubDate>
+      
+      <guid>/site/logfiles/</guid>
+      <description> Log files  </description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>/site/tools/</link>
+      <pubDate>Thu, 12 Oct 2017 14:47:18 +0200</pubDate>
+      
+      <guid>/site/tools/</guid>
+      <description></description>
+    </item>
+
+    <item>
+      <title>Scan2IP Configuration</title>
+      <link>/site/config/</link>
+      <pubDate>Thu, 12 Oct 2017 14:48:31 +0200</pubDate>
+      
+      <guid>/site/config/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

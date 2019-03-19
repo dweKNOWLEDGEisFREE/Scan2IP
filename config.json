@@ -1,0 +1,1 @@
+{"iTop": [{"usr": "sync2user", "url": "http://iTopServerIP/", "pwd": "sync2user"}], "mySQL": [{"database": "scan2IP_01", "host": "localhost", "password": "scan2db", "user": "admin2IP"}], "Nmap": [{"parameter": ""}], "LogFile": [{"number": 50, "age": 30}], "Crontab": [{"doScan": true, "doUpdate": true, "doQuery": true, "doClean": true, "time": 0, "id": "Scan2IP"}]}

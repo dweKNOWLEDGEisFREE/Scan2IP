@@ -1,0 +1,3 @@
+#!/bin/bash
+# encoding: utf-8
+tar -cvzf ../scan2IP.tar.gz *

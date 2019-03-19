@@ -1,0 +1,6 @@
+#!/bin/sh
+echo Starting Scan2IP server in /home/scan2/scan2IP
+trap '' 1
+cd /home/scan2/scan2IP
+./ipc4web.py >/dev/null 2>&1 </dev/null &
+echo $! >/var/tmp/scan2IP.pid

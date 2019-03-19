@@ -1,0 +1,58 @@
+#!/bin/sh
+# Scan2IP 
+#
+### BEGIN INIT INFO
+# Provides:          scan2ip
+# Required-Start:    $local_fs $network $syslog
+# Required-Stop:     $local_fs $network
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: 
+# Description:
+### END INIT INFO
+
+PATH=/sbin:/usr/sbin:/bin:/usr/bin
+DESC="Scan2IP web-based administration interface"
+NAME=scan2IP
+PIDFILE=/var/tmp/scan2IP.pid
+SCRIPTNAME=/etc/init.d/$NAME
+START=/home/scan2/scan2IP/start
+STOP=/home/scan2/scan2IP/stop
+
+case "$1" in
+start)
+	$START
+	RETVAL=$?
+	;;
+stop)
+	$STOP
+	RETVAL=$?
+	rm -f $PIDFILE
+	;;
+restart)
+	$STOP ; $START
+	RETVAL=$?
+	;;
+status)
+	if [ -s $PIDFILE ]; then
+		pid=`cat $PIDFILE`
+		kill -0 $pid >/dev/null 2>&1
+		if [ "$?" = "0" ]; then
+			echo "$NAME (pid $pid) is running"
+			RETVAL=0
+		else
+			echo "$NAME is stopped"
+			RETVAL=1
+		fi
+	else
+		echo "$NAME is stopped"
+		RETVAL=1
+	fi
+	;;
+*)
+	echo "Usage: $0 {start|stop|restart|status}" >&2
+	RETVAL=1
+	;;
+esac
+exit $RETVAL
+

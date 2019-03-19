@@ -1,0 +1,6 @@
+#!/bin/sh
+PIDFILE=/var/tmp/scan2IP.pid
+echo Stopping Scan2IP server in /home/scan2/scan2IP
+if [ -s $PIDFILE ]; then
+   kill `cat $PIDFILE`
+fi
