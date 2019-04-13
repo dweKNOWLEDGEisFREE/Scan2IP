@@ -1,17 +1,19 @@
-#!/usr/bin/python3.5
-# encoding: utf-8
-''' ipc4jobj -- ip collector xml to database
-    
-    ipc4job is to insert data out of the xml file into the database.
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-    It defines classes_and_methods
+''' ipc4jobj - IP collector xml to database
+             * Inserts data out of the xml file into the database.
 
-    @author:     EJS
-    @copyright:  2017 TBD. All rights reserved.
-    @license:    TBD
-    @contact:    TBD
-    @deffield    updated: Updated
+
+    This program is part of the Scan2 Suite.
+    https://github.com/dweKNOWLEDGEisFREE
+
+    This program is licensed under the GNU General Public License v3.0
+
+    Copyright 2019 by David Weyand, Ernst Schmid
+
 '''
+
 
 import sys, os, argparse, mysql.connector, tempfile, xml.sax
 

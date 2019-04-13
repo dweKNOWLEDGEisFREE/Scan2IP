@@ -1,17 +1,20 @@
-#!/usr/bin/python3.5
-# encoding: utf-8
-''' ipc4scan -- access nmap and xalan
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-    ipc4scan starts nmap to scan the network. The xml output file is converted by xalan into html.
+''' ipc4scan - Accesses nmap and xalan
+             * ipc4scan starts nmap to scan the network.
+             * The xml output file is converted by xalan into html.
 
-    It defines classes_and_methods
 
-    @author:    EJS
-    @copyright: 2017 TBD. All rights reserved.
-    @license:   TBD
-    @contact:   TBD
-    @deffield   updated: Updated
+    This program is part of the Scan2 Suite.
+    https://github.com/dweKNOWLEDGEisFREE
+
+    This program is licensed under the GNU General Public License v3.0
+
+    Copyright 2019 by David Weyand, Ernst Schmid
+
 '''
+
 
 import sys, os, argparse, mysql.connector, ipaddress, tempfile
 

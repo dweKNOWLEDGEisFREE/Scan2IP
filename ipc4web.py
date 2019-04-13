@@ -1,18 +1,18 @@
-#!/usr/bin/python3.5
-# encoding: utf-8
-''' ipc4web -- ip collector web interface
-    
-    ipc4web will be responsible for all http related stuff.
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-    It defines classes_and_methods
+''' ipc4web - IP collector web interface
+            * Responsible for all http related stuff.
 
-    @author:     EJS
-    @copyright:  2018 TBD. All rights reserved.
-    @license:    TBD
-    @contact:    TBD
-    @deffield    updated: Updated
+
+    This program is part of the Scan2 Suite.
+    https://github.com/dweKNOWLEDGEisFREE
+
+    This program is licensed under the GNU General Public License v3.0
+
+    Copyright 2019 by David Weyand, Ernst Schmid
+
 '''
-
 
 
 # Imports used by LOG FILE etc.
